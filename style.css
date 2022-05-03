@@ -23,7 +23,7 @@ body{
  .nav-list{
   display: none;
   width: 15rem;
-  min-height: 90vh;
+  min-height: 50vh;
   background-color: rgba(255, 255, 255, 0.9);
   font-size: 12px;
   /* 设置绝对定位，使其不占据页面的位置 */
@@ -93,6 +93,7 @@ small {
 
 .title{
   margin-top: 25rem;
+  margin-left:2rem;
   font-size: 3rem;
 }
 #words{
@@ -101,6 +102,7 @@ small {
 
 .countdown-container{
   display: flex;
+  text-align: center;
   text-align: center;
   margin-bottom:3rem;
 }
