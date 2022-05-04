@@ -55,6 +55,11 @@ setInterval(countDown,1000)
      inputDay = prompt("Input countdown date")
  };
 
+ const btn3 = document.getElementById('btn3');
+ btn3.onclick = function(){
+    todosUL.innerHTML = "";
+  };
+
 //  const btn3 = document.getElementById('btn3');
 //  var url = "";
 //  btn3.onclick = function(){
