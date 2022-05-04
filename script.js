@@ -55,10 +55,6 @@ setInterval(countDown,1000)
      inputDay = prompt("Input countdown date")
  };
 
- const btn3 = document.getElementById('btn3');
- btn3.onclick = function(){
-    todosUL.innerHTML = "";
-  };
 
 //  const btn3 = document.getElementById('btn3');
 //  var url = "";
@@ -156,4 +152,10 @@ function updateLS() {
 
     localStorage.setItem("todos", JSON.stringify(todos));
 }
+
+const btn3 = document.getElementById('btn3');
+ btn3.addEventListener("click", () => {
+    todosUL.innerHTML = "";
+    updateLS();
+});
 
