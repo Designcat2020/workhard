@@ -1,5 +1,5 @@
 
- var inputDay ="1/1/2023";
+ var inputDay ="1/1/2025";
 
  const daysEl=document.getElementById('days');
  const hoursEl=document.getElementById('hours');
